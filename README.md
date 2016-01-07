@@ -1,8 +1,8 @@
 Hello World Personal
 ====================
 
-[My hello world page](http://kevingallagher.github.io/hello-world-page/helloworld.html/)
-(https://kevingallagher.github.io/JohnBaskerville/version-1.html)
+[My hello world page]
+
 A stylish and personable webpage to tell the world about yourself. View the [demo page](http://kevingallagher.github.io/hello-world-page/). 
 
 
