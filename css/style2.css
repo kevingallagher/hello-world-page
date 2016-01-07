@@ -9,7 +9,14 @@ line-height:1em;
 
 -----------------------------------------
 body { font-family: 'Libre Baskerville', serif, Georgia, Times,'Times New Roman'; 
-        color: #666666; }
+    color: #666666; } 
+   
+
+body{background: url(../images/Untitled-1.png) repeat bottom ;
+    width: 100%;
+height: auto}
+
+
                   
 article {   width: 75%; 
     max-width: 760px;
@@ -20,6 +27,7 @@ article {   width: 75%;
 -moz-border-radius: 10px 56px 10px 56px;
 -webkit-border-radius: 10px 56px 10px 56px;
 border: 0px solid #000000;
+   ;
 } 
                   
             /*-----------------------TYPOGRAPY*-------------------------------*/ 
@@ -136,7 +144,7 @@ border-bottom: none;
 nav { border-top: 0px solid #666666;
     padding: 2em 0 2em 0;
       border-bottom: 0px solid #666666;
- position: fixed; 
+ position: absolute; 
     top: 0;
     left:0;
     width:100%;
@@ -277,11 +285,12 @@ article {
     width: 100%;
     font-size: 110%;
     }
-    
+     .intro{font-size: 1.3em}  
 article {
     width: 90%;
     } 
-
+ .rslides{margin:1px ;
+         padding: 0em 0em 0 4em}
 h1 {font-size: 2.9em;}   
 
 blockquote p{padding: 0;
