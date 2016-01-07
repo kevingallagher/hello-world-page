@@ -22,7 +22,7 @@ article {   width: 75%;
 border: 0px solid #000000;
 } 
                   
-            /*-----------------------TYPOGRAPY*-------------------------------*/  
+            /*-----------------------TYPOGRAPY*-------------------------------*/ 
               
  h1, h2, h3, h6 { 
                font-weight: normal;
@@ -32,8 +32,8 @@ font-family: 'Ubuntu', sans-serif;
 color: rgba(166, 166, 166, 1) }
           
           h1 {font-size: 3.350em;
-padding: 2em 0 1em 0;
-text-decoration: underline dotted white;
+padding: 2em 0 0.5em 0;
+              border-bottom: dotted white;
 text-align: center}
 
           h2 {font-size: 2.25em;
@@ -56,6 +56,7 @@ header h2 {padding: 1em 0 1em 0;
 p {font-family: 'Raleway', sans-serif;
     font-weight: 300;
     padding: 1.5em 2em 1.5em 2em;
+    margin-top: 2em;
  font-size:1.3em;
 line-height: 1.25em;
 color: rgba(166, 166, 166, 1);
@@ -110,7 +111,7 @@ a {
     text-decoration: none;
     text-transform: none;
     letter-spacing: 1px;
-    opacity: 1;
+    opacity: 0.8;
  }
 a:hover { color: white;
 border-bottom: none;
@@ -121,13 +122,13 @@ border-bottom: none;
   transition: all .5s ease-in-out;
     ;
 }      
-.arrow{opacity: 0.8}
+/*.arrow{opacity: 0.8}
 .arrow:hover{ opacity: 1;
     transform: scale(1.2);
 -webkit-transition: all .5s ease-out;
   -moz-transition: all .5s ease-out;
   -o-transition: all .5s ease-out;
-  transition: all .5s ease-out;} 
+  transition: all .5s ease-out;} */
 
 /*---------------------------------NAV--------------------------------------*/
 
@@ -172,18 +173,49 @@ img {
        display: block;
        margin: 1em auto
 }
+/* rslides*/
 
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 80%;
+  padding: 0;
+  margin: 0 10em 0 10em;
+  }
 
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 80%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 80%;
+  border: 0;
+  }
+
+a img{opacity: 0.6;
+    display: inline}
+a img:hover{opacity: 1;
+
+    -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;}
 /*-----------------FOOTER--------------*/
-
-.contact {
-    paddig-top:4em;
-    text-align: center;
-    margin:auto
-}
-.contact {paddig-top:7em;
-    text-align: center;
-    margin:auto}
 
 
 
